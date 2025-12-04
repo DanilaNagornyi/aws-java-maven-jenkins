@@ -11,7 +11,7 @@ pipeline {
         maven 'maven-3.9'
     }
 	environment {
-		IMAGE_NAME = 'artnagornyi/demo-app:1.1.2-12'
+		IMAGE_NAME = 'artnagornyi/demo-app:jma-3.0'
 	}
     stages {
         //stage('increment version') {
